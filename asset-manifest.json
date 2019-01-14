@@ -1,14 +1,14 @@
 {
-  "main.css": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/static/css/main.fb422dd7.chunk.css",
-  "main.js": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/static/js/main.c8ef5ffb.chunk.js",
-  "main.js.map": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/static/js/main.c8ef5ffb.chunk.js.map",
-  "static/js/1.4a5897b8.chunk.js": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/static/js/1.4a5897b8.chunk.js",
-  "static/js/1.4a5897b8.chunk.js.map": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/static/js/1.4a5897b8.chunk.js.map",
-  "runtime~main.js": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/static/js/runtime~main.b7c94bf0.js",
-  "runtime~main.js.map": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/static/js/runtime~main.b7c94bf0.js.map",
-  "static/media/App.scss": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/static/media/Roboto-Regular.3e1af3ef.ttf",
-  "static/css/main.fb422dd7.chunk.css.map": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/static/css/main.fb422dd7.chunk.css.map",
-  "index.html": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/index.html",
-  "precache-manifest.22cfe695e99b5f4b9297c2c0dc627cd0.js": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/precache-manifest.22cfe695e99b5f4b9297c2c0dc627cd0.js",
-  "service-worker.js": "/it-teaching-abo-akademi/2018-interactive-web-apps-project-juhanikosk/service-worker.js"
+  "main.css": "/2018-interactive-web-apps-project-juhanikosk/static/css/main.8b970697.chunk.css",
+  "main.js": "/2018-interactive-web-apps-project-juhanikosk/static/js/main.70ae9024.chunk.js",
+  "main.js.map": "/2018-interactive-web-apps-project-juhanikosk/static/js/main.70ae9024.chunk.js.map",
+  "static/js/1.4a5897b8.chunk.js": "/2018-interactive-web-apps-project-juhanikosk/static/js/1.4a5897b8.chunk.js",
+  "static/js/1.4a5897b8.chunk.js.map": "/2018-interactive-web-apps-project-juhanikosk/static/js/1.4a5897b8.chunk.js.map",
+  "runtime~main.js": "/2018-interactive-web-apps-project-juhanikosk/static/js/runtime~main.e0d576f5.js",
+  "runtime~main.js.map": "/2018-interactive-web-apps-project-juhanikosk/static/js/runtime~main.e0d576f5.js.map",
+  "static/media/App.scss": "/2018-interactive-web-apps-project-juhanikosk/static/media/Roboto-Regular.3e1af3ef.ttf",
+  "static/css/main.8b970697.chunk.css.map": "/2018-interactive-web-apps-project-juhanikosk/static/css/main.8b970697.chunk.css.map",
+  "index.html": "/2018-interactive-web-apps-project-juhanikosk/index.html",
+  "precache-manifest.e3d8d7788bc58e7e21de81d78bd587a8.js": "/2018-interactive-web-apps-project-juhanikosk/precache-manifest.e3d8d7788bc58e7e21de81d78bd587a8.js",
+  "service-worker.js": "/2018-interactive-web-apps-project-juhanikosk/service-worker.js"
 }
