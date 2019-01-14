@@ -1,17 +1,25 @@
 import React, { Component } from 'react'
 
 
+/**
+ * A Bootstrap modal component that you can pass form fields as
+ * properties. This is used for the creation of a new portfolio and a
+ * stock.
+ */
 export default class CreationModal extends Component {
     state = {
         'values': {}
     }
 
+    // Set's a new value to the state.
     setValue(id, value) {
         const values = this.state.values;
         values[id] = value;
         this.setState({'values': values});
     }
 
+    // Validate inputs by using the validation properties passed to
+    // the component.
     canSubmit() {
         const sameLength = Object.keys(this.state.values).length === this.props.inputs.length;
         if (sameLength) {
@@ -49,7 +57,7 @@ export default class CreationModal extends Component {
                                     this.props.close();
                                 }}
                                 disabled={this.canSubmit()}>
-                                Create Portfolio
+                                {this.props.submitName}
                             </button>
                         </div>
                     </div>

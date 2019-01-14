@@ -44,6 +44,14 @@ export default class Portfolio extends Component {
     }
 
     render() {
+        // Calculate the total value of all the stocks in the portfolio.
+        let totalValue = 0;
+        this.props.stocks.forEach((stock) => {
+            if (this.state.unitValues[stock.symbol]) {
+                totalValue += this.state.unitValues[stock.symbol] * stock.amount;
+            }
+        });
+
         return (
             <div className="portfolio col-sm-12 col-md-6 px-2 mt-2">
                 <div className="p-2 border border-dark">
@@ -81,6 +89,11 @@ export default class Portfolio extends Component {
                     </div>
                     <div className="row">
                         <div className="col-12">
+                            <p className="px-1 m-0 pb-3">Total value of the portfolio: <strong>{totalValue.toFixed(2)} $</strong></p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
                             <button className="btn btn-primary btn-sm mobile-full-width" 
                                     onClick={() => this.setState({'showStockCreationModal': true})}>
                                 Add stock
@@ -111,7 +124,8 @@ export default class Portfolio extends Component {
                         onCreate={(values) => {
                             this.fetchStockValue(values.symbol);
                             this.props.addStock(values);
-                        }} />
+                        }}
+                        submitName={"Add stock"} />
                     : null
                 }
             </div>

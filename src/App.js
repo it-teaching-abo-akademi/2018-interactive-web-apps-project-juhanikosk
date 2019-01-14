@@ -147,7 +147,8 @@ class App extends Component {
                             validate: (val) => val.length < 4
                         }]}
                         close={() => this.setState({'showCreationModal': false})}
-                        onCreate={(values) => this.createNewPortfolio(values)} />
+                        onCreate={(values) => this.createNewPortfolio(values)}
+                        submitName={"Create portfolio"} />
                     : null}
             </div>
         );
