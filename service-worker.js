@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/2018-interactive-web-apps-project-juhanikosk/precache-manifest.ae133ba52bbd34540e0e59e519acc683.js"
+  "/2018-interactive-web-apps-project-juhanikosk/precache-manifest.afd669d0da7179d2ec081be236eeb381.js"
 );
 
 workbox.clientsClaim();
