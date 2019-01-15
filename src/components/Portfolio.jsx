@@ -55,6 +55,9 @@ export default class Portfolio extends Component {
         return (
             <div className="portfolio col-sm-12 col-md-6 px-2 mt-2">
                 <div className="p-2 border border-dark">
+                    <button className="btn btn-lightdanger btn-sm delete-button remove-portfolio" onClick={this.props.deletePortfolio}>
+                        &times;
+                    </button>
                     <div className="row">
                         <div className="col-12">
                             <p className="font-weight-bold mx-2 mb-2">{this.props.name}</p>
@@ -98,12 +101,8 @@ export default class Portfolio extends Component {
                                     onClick={() => this.setState({'showStockCreationModal': true})}>
                                 Add stock
                             </button>
-                            <button className="btn btn-lightdanger btn-sm float-right mobile-full-width" onClick={this.props.deletePortfolio}>
-                                Delete a portfolio
-                            </button>
-                            <button className="btn btn-lightdanger btn-sm delete-button mobile-full-width float-right mr-sm-2"
-                                onClick={this.props.deleteSelectedStocks}>
-                                Delete stocks
+                            <button className="btn btn-lightdanger btn-sm float-right mobile-full-width" onClick={this.props.deleteSelectedStocks}>
+                                Delete stock
                             </button>
                         </div>
                     </div>

@@ -16,7 +16,10 @@ class App extends Component {
         const data = localStorage.getItem('data');
         if (data) {
             const jsonData = JSON.parse(data);
-            this.setState(jsonData)
+            this.setState({
+                ...jsonData,
+                'selectedStocks': []
+            });
         }
     }
 
